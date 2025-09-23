@@ -1,0 +1,27 @@
+header .conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define 3 colunas de tamanho igual */
+    gap: 10px; /* Espaço entre os itens */
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    /* Colocar uma borda ou sombra embaixo do header. */
+
+}
+.headerLogo{
+    margin-left: 100px; 
+}
+.conteiner nav {
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+    justify-content: center;
+}
+.conteiner nav p a{
+    color: #1351d8;
+    text-decoration: none;
+}
+.conteiner nav p a:hover {
+    border-bottom: #1351d8 solid 2px;
+}

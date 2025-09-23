@@ -1,0 +1,35 @@
+footer {
+    background-color: #1b357e;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+footer .conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialMedia {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 5px;
+}
+.socialMedia img {
+    height: 40px;
+    width: 40px;
+}
+.footerLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.footerLogo p a{
+    color: white;
+    text-decoration: none;
+}

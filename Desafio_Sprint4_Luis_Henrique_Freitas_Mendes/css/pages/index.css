@@ -1,0 +1,8 @@
+main div {
+    display: grid;
+    justify-content: center;
+    
+}
+main div p {
+    margin-top: 20px;
+}
