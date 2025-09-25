@@ -3,11 +3,10 @@ header .conteiner {
     grid-template-columns: repeat(3, 1fr); /* Define 3 colunas de tamanho igual */
     gap: 10px; /* Espaço entre os itens */
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
     /* Colocar uma borda ou sombra embaixo do header. */
-
 }
 .headerLogo{
     margin-left: 100px; 

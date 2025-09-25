@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css"  href="css/components/header.css">
     <link rel="stylesheet" type="text/css"  href="css/components/footer.css">
+    <link rel="stylesheet" type="text/css"  href="css/pages/lancamento.css">
     <link rel="shortcut icon" href="img/Ford-New-Logo-Vector.svg-.ico" type="image/x-icon">
     <title>Document</title>
 </head>
@@ -23,34 +24,65 @@
     </header>
 
     <main>
-        <div class="video_apresentacao"><iframe width="560" height="315" src="https://www.youtube.com/embed/vQsryuNmsL0?si=Puzls9vfAytBqHNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-        <div class="tabela">
-            <table>
-                <tr>
-                    <td><img src="img/XL Cabine.jpg" alt="Carro XL cabine"></td>
-                    <td><img src="img/xls 2.2 diesel.jpg" alt="Carro XLS"></td>
-                    <td><img src="img/storm.jpg" alt="Carro Storm"></td>
+        <div class="video_apresentacao">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vQsryuNmsL0?si=Puzls9vfAytBqHNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div>
+            <table class="tabela">
+                <tr id="linha1">
+                    <td>
+                        <div class="conteiner-img-carro">
+                            <img src="img/XL Cabine.jpg" alt="Carro XL cabine">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="conteiner-img-carro">
+                            <img src="img/xls 2.2 diesel.jpg" alt="Carro XLS">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="conteiner-img-carro">
+                            <img src="img/storm.jpg" alt="Carro Storm">
+                        </div>
+                    </td>
                 </tr>
-                <tr>
+                <tr id="linha2">
                     <td>
-                        <input type="checkbox" name="" class="checkbox">
-                        <p>XL 2.2 Diesel 4x4 MT 2022                        </p>
-                        <img src="img/info.png" alt="info.png">
+                        <div class="conteiner-info-carro">
+                            <input type="checkbox" name="" class="checkbox">
+                            <div class="info">
+                                <p class="nome">XL Cabine Simples 2.2 Diesel 4X4 MT 2022</p>
+                                <p>Preço Sugerido: R$ 183.850</p>
+                            </div>
+                            <img src="img/info.png" alt="info.png">
+                        </div>
                     </td>
                     <td>
-                        <input type="checkbox" name="" class="checkbox">
-                        <p>Ranger XLS 2.2 Diesel 4x4 AT</p>
-                        <img src="img/info.png" alt="info.png">
+                        <div class="conteiner-info-carro">
+                            <input type="checkbox" name="" class="checkbox">
+                            <div class="info">
+                                <p class="nome">XLS 2.2 Diesel 4X4 AT 2022</p>
+                                <p>Preço Sugerido: R$ 220.690</p>
+                            </div>
+                            <img src="img/info.png" alt="info.png">
+                        </div>
                     </td>
                     <td>
-                        <input type="checkbox" name="" class="checkbox">
-                        <p>Storm 2.2 Diesel 4x4 AT</p>
-                        <img src="img/info.png" alt="info.png">
+                        <div class="conteiner-info-carro">
+                            <input type="checkbox" name="" class="checkbox">
+                            <div class="info">
+                                <p class="nome">Storm 3.2 Diesel 4X4 AT 2022</p>
+                                <p>Preço Sugerido: R$ 222.790</p>
+                            </div>
+                            <img src="img/info.png" alt="info.png">
+                        </div>
                     </td>
                 </tr>
             </table>
         </div>
-        <div><button type="submit">COMPARAR</button></div>
+        <div class="button-container">
+            <button id="comparar-button" type="submit">COMPARAR</button>
+        </div>
     </main>
 
     <footer>
@@ -62,7 +94,7 @@
                 <img src="img/instagram-logo-50.png" alt="Logo Instagram">
             </div>
             <div class="footerLogo">
-                <p><a href="https://www.ford.com.br/copyright/">Copyright © 2025 Ford Motor Company - Todos os direitos reservados</a></p>
+                <p><a href="https://www.ford.com.br/copyright/" target="_blank">Copyright © 2025 Ford Motor Company - Todos os direitos reservados</a></p>
                 <img src="img/ford-96.png" alt="Small Logo Ford">
             </div>
         </div>

@@ -1,0 +1,77 @@
+/* #comparar {
+    display: grid;
+    justify-content: center;
+} */
+.video_apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+.video_apresentacao iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.tabela{
+    margin: 0 auto;
+}
+.tabela td{
+    vertical-align: top; /* deixa o conteúdo alinhado no topo */
+    padding: 10px;       /* espaço interno */
+}
+.tabela .nome{
+    font-size: 20px;
+    color: #1351d8;
+    font-weight: bold;
+}
+#linha2 td .conteiner-info-carro {
+    display: flex;
+    /* align-items: center; alinha verticalmente */
+    gap: 10px;        /*    espaço entre os itens */
+    min-width: 350px; /* garante espaço mínimo */
+    max-width: 400px; /* opcional, controla o máximo */
+}
+#linha1 td .conteiner-img-carro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#linha2 td .info {
+    display: flex;
+    flex-direction: column; /* deixa os <p> embaixo um do outro */
+}
+#linha2 td input{
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0; /* não deixa o input encolher */
+    flex-grow: 0;   /* não deixa o input crescer */
+    cursor: pointer;
+}
+#linha2 td img {
+    width: 25px;
+    height: 25px;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Adiciona um espaço acima do botão */
+}
+#comparar-button {
+    background-color: #1351d8;
+    font-size: 32px;
+    padding: 15px 32px;
+    border-radius: 12px;
+    border: none;
+    width: 320px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif; /* Exemplo de fonte, pode ser ajustado */
+    outline: none; /* Remove o marcador branco ao focar */
+}
+#comparar-button:hover {
+    background-color: #1b357e;
+}
