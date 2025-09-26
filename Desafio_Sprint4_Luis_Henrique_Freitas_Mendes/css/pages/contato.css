@@ -1,0 +1,61 @@
+.conteiner_pag3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px; /* Espaço entre a imagem e o formulário */
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas menores */
+}
+.car-image {
+    max-width: 400px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os elementos do formulário */
+    width: 100%;
+    max-width: 300px; /* Limita a largura máxima do formulário */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    /*background-color: #f9f9f9; /* Fundo levemente cinza para destacar o formulário */
+}
+.forms label {
+    font-weight: bold;
+    color: #333;
+}
+.forms input[type="text"],
+.forms input[type="email"],
+.forms textarea, 
+.forms input[type="tel"]{
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #fff; /* Fundo branco para visibilidade */
+    color: #333;
+    font-size: 16px;
+}
+.forms input[type="text"]:focus,
+.forms input[type="email"]:focus,
+.forms textarea:focus {
+    border-color: #1351d8; /* Borda azul ao focar */
+    outline: none;
+}
+.forms textarea {
+    resize: none; /* Impede o redimensionamento */
+    height: 120px; /* Altura fixa */
+}
+.forms button {
+    background-color: #1351d8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+.forms button:hover {
+    background-color: #1b357e; /* Cor mais escura no hover */
+}

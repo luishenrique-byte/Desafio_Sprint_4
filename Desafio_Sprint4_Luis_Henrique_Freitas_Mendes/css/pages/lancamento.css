@@ -28,7 +28,6 @@
 }
 #linha2 td .conteiner-info-carro {
     display: flex;
-    /* align-items: center; alinha verticalmente */
     gap: 10px;        /*    espaço entre os itens */
     min-width: 350px; /* garante espaço mínimo */
     max-width: 400px; /* opcional, controla o máximo */
@@ -57,6 +56,7 @@
 .button-container {
     text-align: center;
     margin-top: 20px; /* Adiciona um espaço acima do botão */
+    margin-bottom: 120px;
 }
 #comparar-button {
     background-color: #1351d8;
@@ -69,7 +69,6 @@
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    font-family: 'Arial', sans-serif; /* Exemplo de fonte, pode ser ajustado */
     outline: none; /* Remove o marcador branco ao focar */
 }
 #comparar-button:hover {
